@@ -52,9 +52,9 @@ public class ShowAlarmPanel extends JPanel{
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				
-				if(mp3Player != null){
+				/*if(mp3Player != null){
 					mp3Player.close();
-				}
+				}*/
 				
 				if(wavPlayer != null){
 					wavPlayer.stopSound();
@@ -78,9 +78,9 @@ public class ShowAlarmPanel extends JPanel{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
-				if(mp3Player != null){
+				/*if(mp3Player != null){
 					mp3Player.close();
-				}
+				}*/
 				
 				if(wavPlayer != null){
 					wavPlayer.stopSound();
@@ -123,8 +123,8 @@ public class ShowAlarmPanel extends JPanel{
 
 		}
 		else{
-			mp3Player = new MP3(Preferences.getInstance().getLastPath());
-			mp3Player.play();
+			//mp3Player = new MP3(Preferences.getInstance().getLastPath());
+			//mp3Player.play();
 		}
 	}
 	

@@ -4,11 +4,11 @@ import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-import javazoom.jl.player.Player;
+//import javazoom.jl.player.Player;
 
 public class MP3 {
 	private String filename;
-	private Player player; 
+	//private Player player; 
 	private FileInputStream fis;
 	private BufferedInputStream bis;
 
@@ -22,7 +22,7 @@ public class MP3 {
 		bis = new BufferedInputStream(fi);
 	}
 
-	public void close() { if (player != null) player.close(); }
+	/*public void close() { if (player != null) player.close(); }
 
 	// play the MP3 file to the sound card
 	public void play() {
@@ -51,4 +51,6 @@ public class MP3 {
 
 
 	}
+	
+	*/
 }

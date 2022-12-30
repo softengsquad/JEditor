@@ -118,9 +118,9 @@ public class Preferences{
 				stop.setEnabled(false);
 				path.setText("");
 				
-				if(player != null){
-					player.close();
-				}
+				//if(player != null){
+				//	player.close();
+				//}
 			}
 
 		});
@@ -154,7 +154,7 @@ public class Preferences{
 					return;
 				}
 				
-				player.play();
+				//player.play();
 				play.setEnabled(false);
 				stop.setEnabled(true);
 			}
@@ -164,7 +164,7 @@ public class Preferences{
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				player.close();
+				//player.close();
 				stop.setEnabled(false);
 				play.setEnabled(true);
 			}
@@ -228,9 +228,9 @@ public class Preferences{
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				
-				if(player != null){
+				/*if(player != null){
 					player.close();
-				}
+				}*/
 				
 				if(user.isSelected()){
 					
@@ -251,9 +251,9 @@ public class Preferences{
 				
 				dialog.dispose();
 				
-				if(player != null){
+				/*if(player != null){
 					player.close();
-				}
+				}*/
 				
 			}
 		});
