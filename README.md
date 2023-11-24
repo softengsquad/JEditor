@@ -40,3 +40,5 @@ Here is another preview showing some more features of the JEditor.
 ![p1](https://github.com/musaeed/JEditor/raw/master/preview1.png)
 
 For any feedback / suggestions or issues compiling / running the software, please contact me at muhammad.omar555 [at] gmail . com
+
+https://lucid.app/lucidchart/dff7cbf2-bb24-45af-87cf-c4b2445fca56/edit?viewport_loc=-792%2C-11%2C2213%2C1097%2C0_0&invitationId=inv_2247e85d-3e09-4375-b04e-5f7c92986d64
